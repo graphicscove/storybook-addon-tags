@@ -1,0 +1,33 @@
+{
+  "name": "storybook-addon-tags",
+  "version": "0.0.1",
+  "description": "Add component tags to the storybook sidebar",
+  "main": "dist/preset.js",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js"
+  ],
+  "keywords": [
+    "storybook",
+    "addons",
+    "tags"
+  ],
+  "author": "Steven Noble",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.14.5",
+    "@storybook/addons": "^6.3.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "babel-loader": "^8.2.2"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "babel ./src --out-dir ./dist"
+  }
+}

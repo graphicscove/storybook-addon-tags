@@ -23,9 +23,9 @@ module.exports = {
 };
 ```
 
-### Include it with a sttory
+### Include it with a story
 
-Add tags to paramters, either globally (to all stories), or to a specific story:
+Add tags to parameters, either globally (to all stories), or to a specific story:
 
 ```js
 export const Primary = Template.bind({});
